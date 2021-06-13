@@ -1,0 +1,82 @@
+#main-navbar{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  top: -100px;
+  z-index: 5;
+}
+#hero-background {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+#hero-background .flexslider {
+  margin-bottom: 0px;
+}
+#hero-background .flexslider > *:not(.slides) {
+  display: none;
+}
+.overlay {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.671);
+  z-index: -1;
+}
+.hero {
+  min-height: 195vh;
+}
+#content-wrapper {
+  background-color: white;
+}
+.news-carousel .item {
+  border-right: 2px solid rgba(0, 0, 0, 0.082);
+  border-left: 2px solid rgba(0, 0, 0, 0.082);
+  min-height: 150px;
+  width: 100%;
+}
+.achievement-carousel .badge {
+  width: 50px !important;
+  margin: auto;
+  position: relative;
+  top: -25px;
+}
+
+.achievement-carousel img:nth-child(1),
+.principal-img {
+  border-style: dashed;
+  border-color: rgba(0, 0, 0, 0.295);
+}
+.schoolIdent {
+  position: absolute;
+  height: 100vh;
+  width: 98vw;
+}
+.banner{
+    position: absolute;
+    width: 320px;
+    left: 0px;
+    bottom: 20px;
+}
+.news-carousel .day{
+    background-color: rgb(27, 175, 35);
+    color: white;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    padding-top: 5px;
+    padding-right: 4px;
+}
+
+.toppers-carousel img{
+  border-style: dashed;
+  border-color: rgba(0, 0, 0, 0.295);
+  padding: 20px;
+}
